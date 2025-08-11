@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>RSS Feed Generator</title>
+  <meta charset="UTF-8" />
+  <title>Early Pump Signals – Reddit Watch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; background: #f7f7f7; }
-    code { background: #eee; padding: 4px 8px; border-radius: 4px; }
+    body { font-family: Arial, sans-serif; line-height: 1.5; margin: 2rem; }
+    h1 { margin-bottom: .25rem; }
+    .muted { color: #666; font-size: .95rem; }
+    code { background: #f2f2f2; padding: 2px 6px; border-radius: 4px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 12px; margin-top: 12px; }
+    .card { border:1px solid #eee; border-radius:12px; padding:1rem 1.25rem; }
+    .tag { font-size:.8rem; background:#eef; padding:.2rem .5rem; border-radius:6px; margin-right:.35rem; }
+    footer { margin-top:1.5rem; font-size:.85rem; color:#666; }
   </style>
 </head>
 <body>
-  <h1>🚀 RSS Feed Generator</h1>
-  <p>This project serves a custom RSS feed at <code>/api/feed</code>.</p>
-  <p>To update the daily feed, edit <code>public/feed.xml</code> only. No other files need changes.</p>
+  <h1>🚀 Early Pump Signals</h1>
+  <div class="muted">Daily watchlist • Updated: Mon, 11 Aug 2025</div>
+
+  <p>RSS endpoint for automations (IFTTT, etc.): <code>/api/feed</code></p>
+
+  <h2>Today's Watchlist (5)</h2>
+  <div class="grid">
+    <div class="card">
+      <strong>ALB — Albemarle</strong>
+      <div class="muted">Premarket gainer; lithium headlines & unusual volume.</div>
+      <div><span class="tag">Premarket</span><span class="tag">Volume</span></div>
+    </div>
+    <div class="card">
+      <strong>INTC — Intel</strong>
+      <div class="muted">In the news; premarket strength on headlines.</div>
+      <div><span class="tag">News</span><span class="tag">Buzz</span></div>
+    </div>
+    <div class="card">
+      <strong>COIN — Coinbase</strong>
+      <div class="muted">Crypto strength; elevated attention.</div>
+      <div><span class="tag">Crypto</span><span class="tag">Momentum</span></div>
+    </div>
+    <div class="card">
+      <strong>MSTR — MicroStrategy</strong>
+      <div class="muted">Bitcoin-linked; tracking crypto move.</div>
+      <div><span class="tag">Crypto</span><span class="tag">Volatility</span></div>
+    </div>
+    <div class="card">
+      <strong>MU — Micron</strong>
+      <div class="muted">Premarket up; chip/AI complex in focus.</div>
+      <div><span class="tag">Semis</span><span class="tag">Premarket</span></div>
+    </div>
+  </div>
+
+  <footer>
+    Update <code>public/feed.xml</code> daily with English-only <code>&lt;item&gt;</code>s (unique <code>guid</code> & RFC-822 <code>pubDate</code>).
+    High risk; informational only.
+  </footer>
 </body>
 </html>
