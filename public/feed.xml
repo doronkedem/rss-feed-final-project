@@ -1,19 +1,39 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Early Pump Signals – Reddit Watch</title>
-    <link>https://your-vercel-app.vercel.app/api/feed</link>
-    <atom:link href="https://your-vercel-app.vercel.app/api/feed" rel="self" type="application/rss+xml" />
-    <description>High-risk early-stage stock pump alerts</description>
+<item>
+  <title>Watchlist: ALB — Premarket Gainer & Lithium Buzz</title>
+  <link>https://finance.yahoo.com/quote/ALB/</link>
+  <description>Albemarle showing notable premarket strength; lithium headlines and above-average attention today.</description>
+  <pubDate>Mon, 11 Aug 2025 13:50:00 +0000</pubDate>
+  <guid isPermaLink="false">watch-alb-2025-08-11</guid>
+</item>
 
-    <!-- Replace items below daily -->
-    <item>
-      <title>Watchlist: SINT – Microcap Volatility with $28 Target?</title>
-      <link>https://finance.yahoo.com/quote/SINT/</link>
-      <description>SINTX Technologies (SINT) is drawing attention. Extremely high-risk; earnings Aug 19.</description>
-      <pubDate>Fri, 08 Aug 2025 14:40:00 +0000</pubDate>
-      <guid isPermaLink="false">watch-sint-2025-08-08</guid>
-    </item>
+<item>
+  <title>Watchlist: INTC — In the News; Early Strength</title>
+  <link>https://finance.yahoo.com/quote/INTC/</link>
+  <description>Intel in focus on headlines; premarket up and elevated mentions.</description>
+  <pubDate>Mon, 11 Aug 2025 13:51:00 +0000</pubDate>
+  <guid isPermaLink="false">watch-intc-2025-08-11</guid>
+</item>
 
-  </channel>
-</rss>
+<item>
+  <title>Watchlist: COIN — Crypto Momentum</title>
+  <link>https://finance.yahoo.com/quote/COIN/</link>
+  <description>Crypto strength lifting interest in Coinbase; momentum-style risk profile.</description>
+  <pubDate>Mon, 11 Aug 2025 13:52:00 +0000</pubDate>
+  <guid isPermaLink="false">watch-coin-2025-08-11</guid>
+</item>
+
+<item>
+  <title>Watchlist: MSTR — Bitcoin-Linked Volatility</title>
+  <link>https://finance.yahoo.com/quote/MSTR/</link>
+  <description>MicroStrategy tracking bitcoin move; high volatility watch.</description>
+  <pubDate>Mon, 11 Aug 2025 13:53:00 +0000</pubDate>
+  <guid isPermaLink="false">watch-mstr-2025-08-11</guid>
+</item>
+
+<item>
+  <title>Watchlist: MU — Premarket Up; Semis in Focus</title>
+  <link>https://finance.yahoo.com/quote/MU/</link>
+  <description>Micron among premarket names; AI/semis narrative in focus.</description>
+  <pubDate>Mon, 11 Aug 2025 13:54:00 +0000</pubDate>
+  <guid isPermaLink="false">watch-mu-2025-08-11</guid>
+</item>
